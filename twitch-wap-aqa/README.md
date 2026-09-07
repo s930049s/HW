@@ -6,7 +6,7 @@ pytest + Selenium. Chrome emulates iPhone 16 Pro Max.
 
 Local test run:
 
-![Local test run](twitch-wap-aqa/docs/test_run.gif)
+![Local test run](docs/test_run.gif)
 
 ## Folder structure
 
@@ -46,7 +46,6 @@ twitch-wap-aqa/
 Needs Python 3.10+ and Chrome.
 
 ```bash
-cd twitch-wap-aqa
 pip install -r requirements.txt
 ```
 
@@ -60,7 +59,6 @@ selenium>=4.20.0
 ## How to run
 
 ```bash
-cd twitch-wap-aqa
 pytest
 ```
 
@@ -73,7 +71,6 @@ HEADLESS=1 pytest
 Windows PowerShell:
 
 ```powershell
-cd twitch-wap-aqa
 $env:HEADLESS='false'
 pytest
 ```
